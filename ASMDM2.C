@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,k,sum,sub,mult,div,mod;
+clrscr();
+	printf("enter value of i\n");
+	scanf("%d",&i);
+	printf("value of i is %d\n",i);
+	printf(" enter value ofj\n");
+	scanf("%d",&j);
+	printf("value of j is %d\n",j);
+	printf("enter value of k\n");
+	scanf("%d",&k);
+	printf("value of k is %d\n",k);
+	sum=i+j+k;
+	printf("\naddition of i,j,k is %d",sum);
+	sub=i-j-k;
+	printf("\nsubtraction of i,j,k is %d",sub);
+	mult=i*j*k;
+	printf("\nmlultiplication i,j,k is %d",mult);
+	div=i/j/k;
+	printf("\ndivison i,j,k is %d",div);
+	mod=i%j%k;
+	printf("\nmodules i,j,k is %d",mod);
+getch();
+}
+
+
+
+
